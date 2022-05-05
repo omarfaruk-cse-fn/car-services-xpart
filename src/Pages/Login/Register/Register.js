@@ -66,11 +66,6 @@ const Register = () => {
                     <Form.Control type="password" name='password' placeholder="Password" required />
                 </Form.Group>
 
-                {/*  <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Confirm password</Form.Label>
-                    <Form.Control type="password" name='password' placeholder="Confirm Password" required />
-                </Form.Group> */}
-
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check onClick={() => setAgree(!agree)} type="checkbox" name='terms' id='terms' className={`ps-2 ${agree ? 'text-success' : 'text-danger'}`} label="Accept terms and condition?" />
                 </Form.Group>
